@@ -1,0 +1,40 @@
+@media (max-width: 992px) {
+  .navbar-right #dsplNone,
+  g {
+    display: none;
+  }
+  .navbar-left,
+  #mobile-icons-id {
+    display: flex;
+    position: absolute;
+  }
+}
+@media (min-width: 992px) {
+  #mobile-icons-id {
+    display: none;
+    padding: 10px;
+    margin-right: 6px;
+  }
+}
+@media (max-width: 1200px) {
+  .navbar {
+    padding: 0 20px;
+  }
+}
+@media (min-width: 993px) {
+  .navbar a {
+    white-space: nowrap;
+  }
+}
+@media screen and (max-width: 992px) {
+}
+@media (max-width: 992px) {
+  .navbar .navbar-left .navbar-brand .nav-logo {
+    height: 30px;
+  }
+}
+@media (max-width: 992px) {
+  .navbar .navbar-left .navbar-brand .wordmark {
+    display: none;
+  }
+}
